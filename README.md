@@ -13,6 +13,8 @@ Inspired by [hassio-ecoflow](https://github.com/vwt12eh8/hassio-ecoflow) and [ec
 >
 > The HACS links in this README install from **`magikh0e/hassio-ecoflow-cloud`**, so you get the Delta 3 Max Plus additions ahead of upstream. Add the device via `Add Integration` → `EcoflowCloud` → cloud account with your accessKey/secretKey; it auto-discovers as **DELTA 3 Max Plus**.
 >
+> **API host:** the Delta 3 Max Plus uses the public Developer API, so pick **`api-a.ecoflow.com`** (US / global) or `api-e.ecoflow.com` (Europe) during setup. Note this differs from the *private* mobile-app API host (`api.ecoflow.com`) referenced in the "Regional API Hosts" section below — that one does not apply to this device.
+>
 > Upstreaming is tracked in tolwi PR [#807](https://github.com/tolwi/hassio-ecoflow-cloud/pull/807). Once merged, you can switch back to the upstream `tolwi` repo in HACS.
 
 ## Installation
