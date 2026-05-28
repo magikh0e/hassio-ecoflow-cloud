@@ -8,6 +8,13 @@
 
 Inspired by [hassio-ecoflow](https://github.com/vwt12eh8/hassio-ecoflow) and [ecoflow-mqtt-prometheus-exporter](https://github.com/berezhinskiy/ecoflow-mqtt-prometheus-exporter) this integration uses EcoFlow MQTT Broker `mqtt.ecoflow.com` to monitor and control the device.
 
+> ## 🔱 Fork note
+> This is a fork of [tolwi/hassio-ecoflow-cloud](https://github.com/tolwi/hassio-ecoflow-cloud) that adds **EcoFlow DELTA 3 Max Plus** support on the official Developer API path (16 sensors, 7 switches, 3 number controls).
+>
+> The HACS links in this README install from **`magikh0e/hassio-ecoflow-cloud`**, so you get the Delta 3 Max Plus additions ahead of upstream. Add the device via `Add Integration` → `EcoflowCloud` → cloud account with your accessKey/secretKey; it auto-discovers as **DELTA 3 Max Plus**.
+>
+> Upstreaming is tracked in tolwi PR [#807](https://github.com/tolwi/hassio-ecoflow-cloud/pull/807). Once merged, you can switch back to the upstream `tolwi` repo in HACS.
+
 ## Installation
 
 ### HACS installation
